@@ -15,4 +15,8 @@ defmodule GreetEveryone do
   def hello do
     :world
   end
+
+  def say do
+    IO.puts("Hello, World!")
+  end
 end
